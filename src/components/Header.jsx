@@ -1,9 +1,9 @@
 import "./Header.css";
 
 function Header() {
-  const nama = "Wahyu";
+  const nama = "Wahyu Jebred'z";
   return (
-    <header>
+    <header className="head">
       <h1>{nama}</h1>
     </header>
   );
