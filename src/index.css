@@ -1,7 +1,66 @@
-.container-content {
+.container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 16px;
+  flex-direction: column;
+  gap: 8px;
+}
+
+body .card {
+  background-color: #9db2bf;
+  border-radius: 24px;
+  padding: 24px;
+}
+
+main {
+  display: flex;
+  gap: 8px;
+  padding: 16px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+body form > label,
+body form > section {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  > input {
+    height: 44px;
+    border-radius: 4px;
+    border: none;
+    padding-inline: 18px;
+  }
+  > .buttons {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+  }
+}
+
+body button {
+  background-color: #C4DFDF;
+  color: black;
+  height: 36px;
+  padding-inline: 18px;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+  min-width: 96px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+body form {
+  display: flex;
+  flex-direction: column;
   gap: 16px;
+}
+
+body form div {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
 }
